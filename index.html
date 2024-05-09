@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Qual a sua idade?</title>
+</head>
+<body>
+  <main class="main">
+    <h1 class="title">Verificador de Idade</h1>
+      <Section class="container">
+        <div class="input-box">
+          <p class="age-p" ><Strong>Ano de nascimento:</Strong>
+            <input type="number" class="age-txt" name="age-txt" id="age-txt" min="1900" max="2200" placeholder="xxxx">
+          </p>
+          <p><strong>Gênero:</strong>
+            <input type="radio" name="gen-ratio" id="mgen" checked>
+            <label for="mgen">Masculino</label>
+            <input type="radio" name="gen-ratio" id="fgen">
+            <label for="fgen">Feminino</label>
+          </p>
+          <input type="button" class="verify-button" value="Verificar">
+        </div>
+        <div class="txt-result">
+          <strong>Preencha os dados a cima para ver o resultado!</strong>
+        </div>
+        <div class="img-box">
+          <img  class="img" src="kidgirlimage.jpg" alt="Age image">
+        </div>
+      </Section>
+    <p class="final-txt">Feito por Hudson Luiz para o CursoemVideo</p>
+  </main>
+  
+
+
+  <script src="Age.js"></script>
+</body>
+</html>
